@@ -8,5 +8,16 @@
   <h1> mooDev on GitHub</h1>
   <script>
     alert("Hello, this is the main Apps Page!")
+    if ("geolocation" in navagator) {
+    }else{};
+navigator.geolocation.getCurrentPosition(function(position) {
+    var lng="position.coords.longitude";
+    var lat="position.coords.latitude";
+   pos(lat, lng);
+alert("Test one");
+} 
+      
   </script>
+  <div id="geotrue"></div>
 </body>
+</html>
